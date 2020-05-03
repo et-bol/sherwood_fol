@@ -25,9 +25,10 @@ background: linear-gradient(346deg, rgba(51,51,51,1) 13%, rgba(147,163,140,1) 50
     margin: 2px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    color: white;
     
     background: rgb(23,23,23);
-background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
+    background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
     
 }
 
@@ -61,7 +62,7 @@ background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%
     text-decoration: none;
     
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: black;
 }
 
