@@ -1,0 +1,76 @@
+/*removes space between heading, window, and navbar*/
+body {
+    margin: 0;
+}
+
+/*heading (in nav css since heading is in all html files, just like nav bar)*/
+#head {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding-left: 15%;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*navigation bar*/
+#navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #333;
+    float: left;
+}
+
+#navBar li a {
+    display: block;
+    color: white;
+    padding: 8% 8%;
+    text-decoration: none;
+}
+
+#navBar li p {
+    text-indent: 10%;
+    padding-left: 1.5%;
+}
+
+#navBar h5 {
+    padding-left: 30%;
+}
+
+#navBar h1 {
+    color: white;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+#sideBarReading {
+    color: lightgrey;
+}
+
+#navBar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff6524;
+}
+
+/*keep content spaced away from nav bar (in nav css because content
+organization is universal throughout website for the most part)*/
+.content {
+    margin-left: 15%;
+    padding: 0.5% 10%;
+    height: 1000px;
+    text-indent: 2%;
+}
+/*footer css in nav css because footer remains the same universally*/
+footer p {
+    text-align: center;
+    padding-left: 15%;
+}
