@@ -1,0 +1,162 @@
+/*removes space between heading, window, and navbar*/
+body {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*heading (in nav css since heading is in all html files, just like nav bar)*/
+#head {
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    margin: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    background: rgb(51,51,51);
+background: linear-gradient(346deg, rgba(51,51,51,1) 13%, rgba(147,163,140,1) 50%, rgba(22,22,22,1) 87%);
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+#title {
+    background-color: #333;
+    text-align: center;
+    margin: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background: rgb(23,23,23);
+background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    color: white;
+}
+
+#title h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#title h3 {
+    margin-bottom: 0px;
+}
+
+/*navigation bar*/
+#navBar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #333;
+    float: left;
+}
+
+#navBar li a {
+    display: block;
+    color: white;
+    padding: 8% 8%;
+    text-decoration: none;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+/*
+kinda useless
+
+#navBar li p {
+    text-indent: 10%;
+    padding-left: 1.5%;
+}
+
+#navBar h5 {
+    padding-left: 30%;
+}
+
+
+#navBar h2 {
+    color: white;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+*/
+
+#sideBarReading {
+    color: lightgrey;
+    text-align: center;
+    border: 1px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+#navBar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff6524;
+}
+
+/*keep content spaced away from nav bar (in nav css because content
+organization is universal throughout website for the most part)*/
+.content {
+    font-family: sans-serif;
+    margin-left: 20%;
+    padding: 0.5% 10%;
+    height: 1000px;
+    text-indent: 2%;
+    
+    background: rgb(246,246,246);
+    background: linear-gradient(158deg, rgba(246,246,246,1) 0%, rgba(204,204,204,1) 100%);
+    
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.opening {
+    padding: 1em;
+    margin-top: 0px;
+    text-align: center;
+    background-color: white;
+    font-size: 1.25em;
+    
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.image {
+    float: right;
+    width:300px;
+    height:200px;
+}
+
+
+/*footer css in nav css because footer remains the same universally*/
+footer p {
+    text-align: center;
+    padding-left: 15%;
+}
+
+/* CLEARFIX */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
