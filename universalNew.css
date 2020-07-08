@@ -11,17 +11,21 @@ body {
 #head {
     text-align: center;
     color: white;
-    padding-left: 15%;
     margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     
     background-color: black;
     
 }
 
-#head h1 {
-    margin:0;
+#head h1, h2, h3, h4 {
+    margin: 10px;
+}
+
+#head a {
+    padding: 5px;
+
 }
 
 #title {
@@ -47,72 +51,59 @@ body {
 }
 
 /*navigation bar*/
-#navBar ul {
-    list-style-type: none;
+
+.navBar {
+    font-family: sans-serif;
+    height: auto;
+    background-color: black;
+    
+}
+
+
+.navBar ul {
+  list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 20%;
-    height: 100%;
-    
-    overflow: auto;
-    background-color: #333;
-    float: left;
-}
-
-#navBar li a {
-    display: block;
-    color: white;
-    padding: 8% 8%;
-    margin: 2px;
-    text-decoration: none;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-/*
-kinda useless
-
-#navBar li p {
-    text-indent: 10%;
-    padding-left: 1.5%;
-}
-
-#navBar h5 {
-    padding-left: 30%;
-}
-
-
-#navBar h2 {
-    color: white;
-    padding-left: 8%;
-    padding-top: 5%;
-}
-*/
-
-#sideBarReading {
-    color: lightgrey;
+  overflow: hidden;
+  background-color: #333;
     text-align: center;
-    border: 1px;
+    padding-left: 15%;
+    
     
 }
 
-#navBar li a:hover:not(.active) {
-    background-color: #111;
+.navBar li {
+    float: left;
+    border: white solid 1px;
+    margin: 5px;
 }
 
-.active {
-    background-color: #ff6524;
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navBar a.active {
+    background-color: #ff6524;
+    color: white;
+}
+
 
 /*keep content spaced away from nav bar (in nav css because content
 organization is universal throughout website for the most part)*/
+
 .content {
     font-family: sans-serif;
-    margin-left: 20%;
-    padding: 0.5% 10%;
-    height: 1000px;
+    padding: 2% 10% ;
+    height: auto;
     
     background-color: white;
     
@@ -143,11 +134,17 @@ organization is universal throughout website for the most part)*/
 /*footer css in nav css because footer remains the same universally*/
 footer p {
     text-align: center;
-    padding-left: 15%;
+    color: white;
+    margin: 0px;
 }
 
 footer {
-    background-color: white;
+    background-color: grey;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0px;
+    width: 100%;
+    height: auto;
 }
 
 /* CLEARFIX */
