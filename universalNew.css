@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding-left: 5%;
     padding-right: 5%;
-    
+
     background-image: url(images/library_background.jpeg);
 }
 
@@ -14,9 +14,9 @@ body {
     margin: 0px;
     padding-top: 1%;
     padding-bottom: 1%;
-    
+
     background-color: black;
-    
+
 }
 
 #head h1, h2, h3, h4 {
@@ -35,10 +35,10 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.1rem;
     color: white;
-    
+
     background: rgb(23,23,23);
     background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
-    
+
 }
 
 #title h2 {
@@ -56,7 +56,7 @@ body {
     font-family: sans-serif;
     height: auto;
     background-color: black;
-    
+
 }
 
 
@@ -68,8 +68,8 @@ body {
   background-color: #333;
     text-align: center;
     padding-left: 15%;
-    
-    
+
+
 }
 
 .navBar li {
@@ -104,10 +104,10 @@ organization is universal throughout website for the most part)*/
     font-family: sans-serif;
     padding: 2% 10% ;
     height: auto;
-    
+
     background-color: white;
-    
-   
+
+
 }
 
 .opening {
@@ -116,8 +116,8 @@ organization is universal throughout website for the most part)*/
     text-align: center;
     background-color: white;
     font-size: 1.25em;
-    
-    
+
+
     border-style: solid;
     border-width: 2px;
     border-color: black;

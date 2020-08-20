@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding-left: 5%;
     padding-right: 5%;
-    
+
     background-image: url(images/library_background.jpeg);
 }
 
@@ -15,9 +15,9 @@ body {
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     background-color: black;
-    
+
 }
 
 #head h1 {
@@ -31,10 +31,10 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.1rem;
     color: white;
-    
+
     background: rgb(23,23,23);
     background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
-    
+
 }
 
 #title h2 {
@@ -53,7 +53,7 @@ body {
     padding: 0px;
     width: 20%;
     height: 100%;
-    
+
     overflow: auto;
     background-color: #333;
     float: left;
@@ -65,7 +65,7 @@ body {
     padding: 8% 8%;
     margin: 2px;
     text-decoration: none;
-    
+
     border-style: solid;
     border-width: 1px;
     border-color: black;
@@ -95,7 +95,7 @@ kinda useless
     color: lightgrey;
     text-align: center;
     border: 1px;
-    
+
 }
 
 #navBar li a:hover:not(.active) {
@@ -113,10 +113,10 @@ organization is universal throughout website for the most part)*/
     margin-left: 20%;
     padding: 0.5% 10%;
     height: 1000px;
-    
+
     background-color: white;
-    
-   
+
+
 }
 
 .opening {
@@ -125,8 +125,8 @@ organization is universal throughout website for the most part)*/
     text-align: center;
     background-color: white;
     font-size: 1.25em;
-    
-    
+
+
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -155,4 +155,141 @@ footer {
   content: "";
   clear: both;
   display: table;
+}
+
+/*media*/
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+
+    /*removes space between heading, window, and navbar*/
+    body {
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        background-image: url(images/library_background.jpeg);
+    }
+
+    /*heading (in nav css since heading is in all html files, just like nav bar)*/
+    #head {
+        text-align: center;
+        color: white;
+        margin: 0px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        background-color: black;
+
+    }
+
+    #head h1, h2, h3, h4 {
+        margin: 10px;
+    }
+
+    #head a {
+        padding: 5px;
+
+    }
+
+    #title {
+        background-color: #333;
+        text-align: center;
+        margin: 2px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.1rem;
+        color: white;
+
+        background: rgb(23,23,23);
+        background: linear-gradient(90deg, rgba(23,23,23,1) 12%, rgba(103,103,103,1) 50%, rgba(22,22,22,1) 87%);
+
+    }
+
+    #title h2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #title h3 {
+        margin-bottom: 0px;
+    }
+
+    /*navigation bar*/
+
+    .navBar {
+        font-family: sans-serif;
+        height: auto;
+        background-color: black;
+
+    }
+
+
+    .navBar ul {
+      list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+      overflow: hidden;
+      background-color: #333;
+        text-align: center;
+        padding-left: 15%;
+
+
+    }
+
+    .navBar li {
+        float: left;
+        border: white solid 1px;
+        margin: 5px;
+    }
+
+    .navBar a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navBar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .navBar a.active {
+        background-color: #ff6524;
+        color: white;
+    }
+
+
+    /*keep content spaced away from nav bar (in nav css because content
+    organization is universal throughout website for the most part)*/
+
+    .content {
+        font-family: sans-serif;
+        padding: 2% 10% ;
+        height: auto;
+
+        background-color: white;
+    }
+
+    .opening {
+        padding: 1em;
+        margin-top: 0px;
+        text-align: center;
+        background-color: white;
+        font-size: 1.25em;
+
+
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        border-radius: 5px;
+    }
+
+    .image {
+        float: right;
+        width:300px;
+        height:200px;
+    }
+
 }
