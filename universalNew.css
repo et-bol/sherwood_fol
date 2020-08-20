@@ -1,8 +1,13 @@
 /*removes space between heading, window, and navbar*/
+html {
+  height: 100%;
+}
+
 body {
     margin: 0;
     padding-left: 5%;
     padding-right: 5%;
+    height: 100%;
 
     background-image: url(images/library_background.jpeg);
 }
@@ -25,7 +30,7 @@ body {
 
 #head a {
     padding: 5px;
-
+    color: red;
 }
 
 #title {
@@ -153,3 +158,5 @@ footer {
   clear: both;
   display: table;
 }
+
+/* MEDIA QUERIES */
