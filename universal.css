@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding-left: 5%;
+    font-size: 100%;
     padding-right: 5%;
     height: 100%;
 
@@ -92,6 +93,7 @@ organization is universal throughout website for the most part)*/
 
 .content {
     font-family: sans-serif;
+    font-size: 100%;
     padding: 2% 10% ;
     height: auto;
 
