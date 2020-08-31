@@ -67,8 +67,6 @@ body {
     font-family: sans-serif;
     height: auto;
     align-content: center;
-    background-color: #212121;
-
 }
 
 
@@ -77,16 +75,17 @@ body {
     margin: 0px;
     padding: 0px;
   overflow: hidden;
-  background-color: #212121;
+  background-color: black;
     text-align: center;
-    padding-left: 29.5%;
+    padding-left: 10%;
 }
 
 .navBar li {
     float: left;
     /* border: white solid 1px; */
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 15px;
+    background-color: #323232;
 }
 
 .navBar a {
@@ -99,13 +98,13 @@ body {
 
 .navBar a:hover {
   background-color: #ddd;
-  border-radius: 30px;
+  border-radius: 15px;
   color: black;
 }
 
 .navBar a.active {
     background-color: #ff6524;
-    border-radius: 30px;
+    border-radius: 15px;
     color: white;
 }
 
