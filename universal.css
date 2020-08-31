@@ -43,6 +43,7 @@ body {
 .navBar {
     font-family: sans-serif;
     height: auto;
+    align-content: center;
     background-color: #212121;
 
 }
@@ -55,15 +56,14 @@ body {
   overflow: hidden;
   background-color: #212121;
     text-align: center;
-    padding-left: 15%;
-
-
+    padding-left: 29.5%;
 }
 
 .navBar li {
     float: left;
-    border: white solid 1px;
+    /* border: white solid 1px; */
     margin: 5px;
+    border-radius: 30px;
 }
 
 .navBar a {
@@ -76,11 +76,13 @@ body {
 
 .navBar a:hover {
   background-color: #ddd;
+  border-radius: 30px;
   color: black;
 }
 
 .navBar a.active {
     background-color: #ff6524;
+    border-radius: 30px;
     color: white;
 }
 
