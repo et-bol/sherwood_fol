@@ -24,7 +24,7 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
 
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .banner h1, h2, h3, h4 {
@@ -43,7 +43,7 @@ body {
     height: auto;
     align-content: center;
 
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.8);
 }
 
 
@@ -160,7 +160,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
     /* tablets and desktop */
     body {
           background-image: url(images/library_background.jpeg);
@@ -170,8 +170,12 @@ footer {
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1399px) {
     /* phones */
+    body {
+      background-color: white;
+      font-size: 110%;
+    }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
