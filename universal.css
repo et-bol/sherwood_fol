@@ -1,13 +1,9 @@
 /*removes space between heading, window, and navbar*/
 body {
     margin: 0;
-    padding-left: 5%;
     font-size: 100%;
-    padding-right: 5%;
     height: 100%;
 
-
-    background-image: url(images/library_background.jpeg);
 }
 
 /*heading (in nav css since heading is in all html files, just like nav bar)*/
@@ -18,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
   }
 
 .banner {
@@ -45,45 +42,49 @@ body {
     font-family: sans-serif;
     height: auto;
     align-content: center;
+
+    background-color: rgba(0,0,0,0.9);
 }
 
 
 .navBar ul {
-  list-style-type: none;
+    list-style-type: none;
     margin: 0px;
-    padding: 0px;
-  overflow: hidden;
-  background-color: black;
+    padding: 10px;
+    overflow: hidden;
     text-align: center;
-    padding-left: 10%;
 }
 
 .navBar li {
-    float: left;
     /* border: white solid 1px; */
-    margin: 5px;
-    border-radius: 15px;
-    background-color: #323232;
+    margin: 0.3%;
+    display:inline;
 }
 
 .navBar a {
-  display: block;
+  background-color: #323232;
+  border-radius: 15px;
+  display: inline-block;
+  border: 1px solid white;
   color: white;
-  text-align: center;
   padding: 14px 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-decoration: none;
 }
 
 .navBar a:hover {
-  background-color: #ddd;
+  background-color: #ff6524;
   border-radius: 15px;
+  border: 1px solid #ff6524;
   color: black;
 }
 
 .navBar a.active {
-    background-color: #ff6524;
+    background-color: #ddd;
+    color: black;
+    border: 1px solid #ddd;
     border-radius: 15px;
-    color: white;
 }
 
 
@@ -158,3 +159,21 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    body {
+          background-image: url(images/library_background.jpeg);
+          padding-left: 5%;
+          padding-right: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
