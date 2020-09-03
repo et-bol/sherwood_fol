@@ -6,6 +6,10 @@ body {
 
 }
 
+p {
+  font-size: 110%;
+}
+
 /*heading (in nav css since heading is in all html files, just like nav bar)*/
 .head {
     background-image:
@@ -110,7 +114,6 @@ organization is universal throughout website for the most part)*/
   margin-left: 0px;
   font-family: serif;
   font-size: 25px;
-  text-decoration: underline;
 }
 
 
@@ -118,14 +121,16 @@ organization is universal throughout website for the most part)*/
     padding: 1em;
     margin-top: 0px;
     text-align: center;
-    background-color: white;
-    font-size: 1.25em;
+    background-color: #FDFAFF;
+    font-size: 1.3em;
 
 
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: black;
     border-radius: 5px;
+
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .image {
@@ -149,6 +154,7 @@ footer {
     margin: 0px;
     width: 100%;
     height: auto;
+    float: bottom;
 }
 
 /* CLEARFIX */
@@ -160,17 +166,17 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
     /* tablets and desktop */
     body {
           background-image: url(images/library_background.jpeg);
-          padding-left: 5%;
-          padding-right: 5%;
+          padding-left: 2.5%;
+          padding-right: 2.5%;
     }
 
 }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 767px) {
     /* phones */
     body {
       background-color: white;
